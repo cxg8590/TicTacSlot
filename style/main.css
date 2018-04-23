@@ -1,0 +1,56 @@
+body{
+    background-image: url("../media/blurBack.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#mainCanvas{
+    z-index: 0;
+    top:5%;
+    padding-bottom: 200px;
+    width: 100%;
+}
+#underCanvas{
+    z-index: -1;
+    top: 5%;
+    width: 100%;
+}
+canvas{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#rulesBox{
+    background: red;
+    margin-top: 500px;
+}
+@media screen and (min-width: 480px) {
+    #rulesBox{
+        background: red;
+        margin-top: 945px;
+        width: 756px;
+        margin-left: 33.7%;
+    }
+    
+    #mainCanvas{
+        z-index: 0;
+        left:30%;
+        top:5%;
+        padding-bottom: 200px;
+        width: 900px;
+    }
+    #underCanvas{
+        z-index: -1;
+        left:30%;
+        top: 5%;
+        width: 900px;
+    }
+
+}
+@font-face {
+  font-family: 'BigTop';
+  src: url('BigTop.eot?#iefix') format('embedded-opentype'),  url('BigTop.woff') format('woff'), url('BigTop.ttf')  format('truetype'), url('BigTop.svg#BigTop') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
